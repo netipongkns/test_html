@@ -69,8 +69,8 @@ span.psw {
 <body>
 
 <h2 align = "center">Login Form</h2>
-
-<form action="/action_page.php">
+<
+<form action="http://localhost/codeIgniter-3.1.10/index.php/dashboard/">
   <div class="imgcontainer">
     <img src="accountlogin-icon.png" alt="Avatar" class="avatar" >
   </div>
@@ -82,7 +82,7 @@ span.psw {
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
         
-    <button a href="http://www.dhammathai.org/day/buddhismday.php" type="submit">Login</button>
+    <button type="submit">Login</button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
